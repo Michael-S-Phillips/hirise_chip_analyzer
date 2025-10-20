@@ -1,0 +1,29 @@
+name: hirise_chip_analyzer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core scientific stack
+  - python=3.11
+  - numpy
+  - pillow
+
+  # Image processing
+  - rasterio
+  - scikit-image
+  - matplotlib
+
+  # GUI
+  - pyqt=5
+
+  # Development & testing
+  - pytest
+  - pytest-cov
+  - black
+  - mypy
+  - flake8
+  - pip
+
+  # Utilities
+  - pyyaml
+  - tifffile
